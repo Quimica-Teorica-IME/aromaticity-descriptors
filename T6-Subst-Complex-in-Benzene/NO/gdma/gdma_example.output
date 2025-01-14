@@ -1,0 +1,125 @@
+                                     G D M A
+                                 by Anthony Stone
+
+               Distributed Multipoles from Gaussian wavefunctions
+
+                             version 2.3.3 (e2d289a)
+              Compiled with gfortran on 05 October 2021 at 19:26:39
+
+Starting at 12:17:36 on 07 Dec 2021 
+
+
+Using MP2 density matrix from file no.fchk
+
+
+                         Distributed Multipole Analysis
+
+Standard DMA for products of primitives with exponent greater than 4.00000
+Using 80-point Euler-MacLaurin radial quadrature
+Using 590-point Lebedev quadrature
+Becke smoothing parameter = 3
+
+Positions and radii in angstrom
+Multipole moments in atomic units, ea_0^k for rank k
+
+O          x = -1.333915  y =  2.406766  z =  0.000000 angstrom
+           Maximum rank =  2   Radius =  0.650 angstrom
+                   Q00  =  -0.185021
+|Q1| =   0.450450  Q11c =   0.431701  Q11s =  -0.128604
+|Q2| =   0.916238  Q20  =   0.099900  Q22c =   0.592393  Q22s =  -0.691796
+
+N          x = -0.181762  y =  2.024943  z =  0.000000 angstrom
+           Maximum rank =  2   Radius =  0.650 angstrom
+                   Q00  =   0.008903
+|Q1| =   0.682219  Q11c =  -0.564692  Q11s =  -0.382814
+|Q2| =   0.988697  Q20  =  -0.090438  Q22c =  -0.264054  Q22s =  -0.948482
+
+H          x =  0.778755  y = -3.176570  z =  0.000000 angstrom
+           Maximum rank =  2   Radius =  0.350 angstrom
+                   Q00  =   0.042522
+|Q1| =   0.110475  Q11c =  -0.022369  Q11s =   0.108187
+|Q2| =   0.206928  Q20  =  -0.159519  Q22c =  -0.121402  Q22s =  -0.051328
+
+C          x =  0.000000  y =  0.596317  z =  0.000000 angstrom
+           Maximum rank =  2   Radius =  0.650 angstrom
+                   Q00  =   0.164981
+|Q1| =   0.070954  Q11c =   0.000557  Q11s =  -0.070952
+|Q2| =   0.162309  Q20  =  -0.114636  Q22c =  -0.107445  Q22s =  -0.040724
+
+C          x = -1.057331  y = -0.322437  z =  0.000000 angstrom
+           Maximum rank =  2   Radius =  0.650 angstrom
+                   Q00  =   0.103736
+|Q1| =   0.177476  Q11c =   0.164016  Q11s =   0.067796
+|Q2| =   0.489608  Q20  =  -0.484369  Q22c =   0.015945  Q22s =  -0.069632
+
+H          x = -2.075718  y =  0.046461  z =  0.000000 angstrom
+           Maximum rank =  2   Radius =  0.350 angstrom
+                   Q00  =   0.084710
+|Q1| =   0.105022  Q11c =   0.104755  Q11s =   0.007493
+|Q2| =   0.165401  Q20  =  -0.133499  Q22c =   0.049003  Q22s =  -0.084464
+
+C          x = -0.768658  y = -1.678675  z =  0.000000 angstrom
+           Maximum rank =  2   Radius =  0.650 angstrom
+                   Q00  =   0.025382
+|Q1| =   0.115950  Q11c =   0.060204  Q11s =   0.099095
+|Q2| =   0.938951  Q20  =  -0.927557  Q22c =  -0.032362  Q22s =   0.142198
+
+H          x = -1.572955  y = -2.405395  z =  0.000000 angstrom
+           Maximum rank =  2   Radius =  0.350 angstrom
+                   Q00  =   0.047687
+|Q1| =   0.110361  Q11c =   0.078518  Q11s =   0.077553
+|Q2| =   0.197624  Q20  =  -0.151400  Q22c =   0.013650  Q22s =   0.126282
+
+C          x =  0.562749  y = -2.114048  z =  0.000000 angstrom
+           Maximum rank =  2   Radius =  0.650 angstrom
+                   Q00  =   0.005051
+|Q1| =   0.096762  Q11c =  -0.022533  Q11s =   0.094102
+|Q2| =   1.075059  Q20  =  -1.064347  Q22c =  -0.139435  Q22s =  -0.058949
+
+C          x =  1.610808  y = -1.194595  z =  0.000000 angstrom
+           Maximum rank =  2   Radius =  0.650 angstrom
+                   Q00  =   0.013559
+|Q1| =   0.108477  Q11c =  -0.092445  Q11s =   0.056756
+|Q2| =   1.016092  Q20  =  -1.004068  Q22c =   0.103014  Q22s =  -0.116957
+
+H          x =  2.637846  y = -1.539869  z =  0.000000 angstrom
+           Maximum rank =  2   Radius =  0.350 angstrom
+                   Q00  =   0.046443
+|Q1| =   0.109501  Q11c =  -0.102763  Q11s =   0.037817
+|Q2| =   0.202647  Q20  =  -0.155470  Q22c =   0.103725  Q22s =  -0.078332
+
+C          x =  1.329223  y =  0.168655  z =  0.000000 angstrom
+           Maximum rank =  2   Radius =  0.650 angstrom
+                   Q00  =   0.080772
+|Q1| =   0.166021  Q11c =  -0.165843  Q11s =  -0.007697
+|Q2| =   0.653373  Q20  =  -0.650567  Q22c =  -0.020781  Q22s =   0.056815
+
+H          x =  2.114977  y =  0.915343  z =  0.000000 angstrom
+           Maximum rank =  2   Radius =  0.350 angstrom
+                   Q00  =   0.071868
+|Q1| =   0.109744  Q11c =  -0.095755  Q11s =  -0.053616
+|Q2| =   0.169742  Q20  =  -0.137671  Q22c =  -0.000486  Q22s =   0.099292
+
+TOP1       x =  0.000000  y =  0.000000  z =  2.000000 angstrom
+           Maximum rank =  2   Radius =  0.650 angstrom
+                   Q00  =  -0.255301
+|Q1| =   0.282441  Q10  =   0.281211  Q11c =  -0.006706  Q11s =   0.025457
+|Q2| =   0.120830  Q20  =   0.095482  Q21c =  -0.010605  Q21s =   0.002014
+                   Q22c =  -0.056077  Q22s =  -0.047137
+
+TOP2       x =  0.000000  y =  0.000000  z = -2.000000 angstrom
+           Maximum rank =  2   Radius =  0.650 angstrom
+                   Q00  =  -0.255301
+|Q1| =   0.282441  Q10  =  -0.281211  Q11c =  -0.006706  Q11s =   0.025457
+|Q2| =   0.120830  Q20  =   0.095482  Q21c =   0.010605  Q21s =  -0.002014
+                   Q22c =  -0.056077  Q22s =  -0.047137
+
+Total multipoles referred to origin at
+           x =   0.000000,  y =    0.000000,  z =    0.000000 angstrom
+                   Q00  =  -0.000006
+|Q1| =   1.352078  Q11c =   0.335960  Q11s =  -1.309674
+|Q2| =   5.483242  Q20  =  -2.097389  Q22c =   4.536947  Q22s =   2.254555
+
+CPU time used:      3m 8.977s          Total:      3m 8.977s
+
+Finished at 12:20:45 on 07 Dec 2021 

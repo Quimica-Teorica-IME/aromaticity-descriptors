@@ -1,0 +1,39 @@
+########## PBS variables ############
+most important PBS vars
+PBS_O_WORKDIR = /home/itamar/Aromaticity-test-set/T6-Subst-Complex-in-Benzene/NO2/gdma
+PBS_JOBID = 2709.cluster.abaxnet
+others PBS vars
+PBS_JOBCOOKIE = 3ABE93188A890421B45879FDCD32F0B2
+PBS_JOBNAME = gdma_sub
+PBS_TASKNUM = 1
+PBS_WALLTIME = 2592000
+PBS_O_QUEUE = batch
+PBS_O_LOGNAME = itamar
+PBS_NODENUM = 0
+PBS_NUM_NODES = 1
+PBS_O_SHELL = /bin/bash
+PBS_O_HOST = cluster.abaxnet
+PBS_VNODENUM = 0
+PBS_QUEUE = batch
+PBS_MICFILE = /var/lib/torque/aux//2709.cluster.abaxnetmic
+PBS_O_MAIL = /var/spool/mail/itamar
+PBS_NP = 1
+PBS_NUM_PPN = cluster.abaxnet
+PBS_O_SERVER = cluster.abaxnet
+PBS_NODEFILE = /var/lib/torque/aux//2709.cluster.abaxnet
+PBS_O_PATH = /apps/software/g09:/opt/xcat/bin:/opt/xcat/sbin:/opt/xcat/share/xcat/tools:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/itamar/.local/bin:/home/itamar/bin
+
+START Tue Dec  7 12:21:58 CET 2021
+/home/itamar
+Linux dlt01.abaxnet 3.10.0-1160.el7.x86_64 #1 SMP Mon Oct 19 16:18:59 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+total 32K
+4.0K drwxr-xr-x 17 itamar abax 4.0K Nov 28 16:36 Aromaticity-test-set
+4.0K drwxr-xr-x 18 itamar abax 4.0K Oct 25 23:53 Benzene-derivatives-Francisco
+4.0K drwxr-xr-x 22 itamar abax 4.0K Nov  8 15:06 Galabov-JOC-2019
+4.0K drwxr-xr-x 21 itamar abax 4.0K Nov 16 21:51 JOC-2004
+4.0K drwxr-xr-x  2 itamar abax 4.0K Oct 22 22:40 Mossri
+4.0K drwxr-xr-x  2 itamar abax 4.0K Oct 20 23:29 Scripts
+4.0K drwxrwxr-x  3 itamar abax 4.0K Oct 21 00:19 gdma
+4.0K drwxr-xr-x  4 itamar abax 4.0K Nov  8 16:21 test
+running in /home/itamar/Aromaticity-test-set/T6-Subst-Complex-in-Benzene/NO2/gdma folder
+FINISH Tue Dec  7 12:25:40 CET 2021

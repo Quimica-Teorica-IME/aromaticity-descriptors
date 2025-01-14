@@ -1,0 +1,13 @@
+#!/bin/bash 
+#PBS -l nodes=1:ppn=6,walltime=720:00:00
+#PBS -N bla-025
+echo "Iniciado em" $(date)
+module load g09/g09                                   # 1: Carregando o modulo para o G09
+source $GAUSS_BSDDIR/g09.profile                      # 2: Comando para criar um ambiente de execucao
+export GAUSS_SCRDIR=/scratch/$USER/$PBS_JOBID         # 3: Definindo um diretorio para scratch no disco
+                                                      # 3: local existente no noh que roda esse trabalho
+mkdir -p $GAUSS_SCRDIR                                # 4: Criando o diretório scratch  
+INPUT=/home/itamar/Aromaticity-test-set/T1-BLA/025/test-ccsd/bla-025.inp
+OUTPUT=/home/itamar/Aromaticity-test-set/T1-BLA/025/test-ccsd/bla-025.out             # 6: Arquivo de saida
+g09 < $INPUT > $OUTPUT                                # 7: Execucao do gaussian
+echo "Terminado em" $(date)

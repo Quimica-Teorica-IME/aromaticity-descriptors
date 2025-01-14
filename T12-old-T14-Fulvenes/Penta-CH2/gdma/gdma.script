@@ -1,0 +1,84 @@
+#PBS -q batch
+#PBS -l walltime=720:00:00
+#PBS -l mem=12700mb
+#PBS -l nodes=1:ppn=1
+#PBS -l ncpus=1
+#PBS -N gdma_sub
+
+
+echo "########## PBS variables ############"
+echo most important PBS vars
+echo PBS_O_WORKDIR = $PBS_O_WORKDIR
+echo PBS_JOBID = $PBS_JOBID
+echo others PBS vars
+echo PBS_JOBCOOKIE = $PBS_JOBCOOKIE
+echo PBS_JOBNAME = $PBS_JOBNAME
+echo PBS_TASKNUM = $PBS_TASKNUM
+echo PBS_WALLTIME = $PBS_WALLTIME
+echo PBS_O_QUEUE = $PBS_O_QUEUE
+echo PBS_O_LOGNAME = $PBS_O_LOGNAME
+echo PBS_NODENUM = $PBS_NODENUM
+echo PBS_NUM_NODES = $PBS_NUM_NODES 
+echo PBS_O_SHELL = $PBS_O_SHELL
+echo PBS_O_HOST = $PBS_O_HOST
+echo PBS_VNODENUM = $PBS_VNODENUM
+echo PBS_QUEUE = $PBS_QUEUE
+echo PBS_MICFILE = $PBS_MICFILE
+echo PBS_O_MAIL = $PBS_O_MAIL
+echo PBS_NP = $PBS_NP
+echo PBS_NUM_PPN = $PBS_O_SERVER
+echo PBS_O_SERVER = $PBS_O_SERVER
+echo PBS_NODEFILE = $PBS_NODEFILE
+echo PBS_O_PATH = $PBS_O_PATH
+
+echo -e #####################################
+
+
+
+
+##########################################
+echo "START $(date)"
+##########################################
+
+
+module load gdma
+############### GDMA example ###############
+# after formchk at chk file, use the input 
+############################################
+########## gdma_example.input ##############
+############################################
+#File file.fchk
+#Angstrom
+#Multipoles
+#  Limit 2
+#  Switch 4.0
+#  Radius H 0.35
+#  Punch file.punch
+#Start
+#Finish
+############################################
+
+
+pwd
+uname -a
+ls -lhs
+
+
+echo "running in $PBS_O_WORKDIR folder"
+cd $PBS_O_WORKDIR
+
+#execution
+gdma < gdma_example.input > gdma_example.output
+
+
+
+
+
+
+
+
+##########################################
+echo "FINISH $(date)"
+##########################################
+
+
