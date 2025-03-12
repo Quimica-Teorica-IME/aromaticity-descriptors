@@ -1,0 +1,90 @@
+                                     G D M A
+                                 by Anthony Stone
+
+               Distributed Multipoles from Gaussian wavefunctions
+
+                             version 2.3.3 (6b8e81e)
+              Compiled with gfortran on 14 January 2024 at 08:13:23
+
+Starting at 15:02:09 on 04 Feb 2025 
+
+
+Using SCF density matrix from file n6.fchk
+
+
+                         Distributed Multipole Analysis
+
+Standard DMA for products of primitives with exponent greater than 4.00000
+Using 80-point Euler-MacLaurin radial quadrature
+Using 590-point Lebedev quadrature
+Becke smoothing parameter = 3
+
+Positions and radii in angstrom
+Multipole moments in atomic units, ea_0^k for rank k
+
+N          x = -1.132327  y = -0.637631  z =  0.182396 angstrom
+           Maximum rank =  2   Radius =  0.650 angstrom
+                   Q00  =   0.263423
+|Q1| =   0.846874  Q10  =  -0.046426  Q11c =   0.735099  Q11s =   0.417934
+|Q2| =   0.476117  Q20  =   0.013711  Q21c =   0.233808  Q21s =   0.050736
+                   Q22c =  -0.189754  Q22s =  -0.365038
+
+N          x = -1.132308  y =  0.637661  z = -0.182399 angstrom
+           Maximum rank =  2   Radius =  0.650 angstrom
+                   Q00  =   0.263423
+|Q1| =   0.846875  Q10  =   0.046427  Q11c =   0.735089  Q11s =  -0.417954
+|Q2| =   0.476119  Q20  =   0.013710  Q21c =  -0.233809  Q21s =   0.050744
+                   Q22c =  -0.189734  Q22s =   0.365049
+
+N          x =  0.000015  y =  1.279604  z =  0.000093 angstrom
+           Maximum rank =  2   Radius =  0.650 angstrom
+                   Q00  =   0.259723
+|Q1| =   0.855727  Q10  =  -0.000005  Q11c =  -0.000015  Q11s =  -0.855727
+|Q2| =   0.492268  Q20  =   0.081236  Q21c =   0.178748  Q21s =  -0.000090
+                   Q22c =   0.451418  Q22s =  -0.000024
+
+N          x =  1.132329  y =  0.637600  z =  0.182493 angstrom
+           Maximum rank =  2   Radius =  0.650 angstrom
+                   Q00  =   0.263434
+|Q1| =   0.846884  Q10  =  -0.046435  Q11c =  -0.735115  Q11s =  -0.417925
+|Q2| =   0.476143  Q20  =   0.013698  Q21c =  -0.233932  Q21s =  -0.050679
+                   Q22c =  -0.189740  Q22s =  -0.365008
+
+N          x =  1.132311  y = -0.637630  z = -0.182490 angstrom
+           Maximum rank =  2   Radius =  0.650 angstrom
+                   Q00  =   0.263434
+|Q1| =   0.846884  Q10  =   0.046435  Q11c =  -0.735104  Q11s =   0.417945
+|Q2| =   0.476144  Q20  =   0.013699  Q21c =   0.233930  Q21s =  -0.050683
+                   Q22c =  -0.189720  Q22s =   0.365020
+
+N          x = -0.000020  y = -1.279604  z = -0.000094 angstrom
+           Maximum rank =  2   Radius =  0.650 angstrom
+                   Q00  =   0.259723
+|Q1| =   0.855727  Q10  =   0.000005  Q11c =   0.000008  Q11s =   0.855727
+|Q2| =   0.492268  Q20  =   0.081236  Q21c =  -0.178745  Q21s =  -0.000086
+                   Q22c =   0.451418  Q22s =   0.000001
+
+TOP(1)     x =  0.000000  y =  0.000000  z =  1.000000 angstrom
+           Maximum rank =  2   Radius =  0.650 angstrom
+                   Q00  =  -0.786583
+|Q1| =   0.307131  Q10  =   0.307131  Q11c =  -0.000007  Q11s =  -0.000039
+|Q2| =   0.400174  Q20  =   0.398368  Q21c =  -0.000013  Q21s =  -0.000044
+                   Q22c =  -0.003245  Q22s =  -0.037838
+
+TOP(-1)    x =  0.000000  y =  0.000000  z = -1.000000 angstrom
+           Maximum rank =  2   Radius =  0.650 angstrom
+                   Q00  =  -0.786584
+|Q1| =   0.307131  Q10  =  -0.307131  Q11c =  -0.000006  Q11s =   0.000039
+|Q2| =   0.400174  Q20  =   0.398368  Q21c =   0.000012  Q21s =  -0.000043
+                   Q22c =  -0.003243  Q22s =   0.037839
+
+Total multipoles referred to origin at
+           x =   0.000000,  y =    0.000000,  z =    0.000000 angstrom
+                   Q00  =  -0.000008
+|Q1| =   0.000003  Q10  =   0.000001  Q11c =  -0.000003
+|Q2| =   5.464987  Q20  =   5.463678  Q21c =  -0.000012  Q21s =  -0.000658
+                   Q22c =   0.119613  Q22s =   0.000005
+
+CPU time used:      0m 3.563s          Total:      0m 3.563s
+
+Finished at 15:02:12 on 04 Feb 2025 

@@ -1,0 +1,9 @@
+File benzene.fchk Density MP2
+Angstrom
+Multipoles
+  Limit 2
+  Switch 4.0
+  Radius H 0.35
+  Punch file.punch
+Start
+Finish

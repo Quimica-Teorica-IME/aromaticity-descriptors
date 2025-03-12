@@ -1,9 +1,0 @@
-/var/lib/torque/mom_priv/jobs/3328.cluster.abaxnet.SC: line 1: File: command not found
-/var/lib/torque/mom_priv/jobs/3328.cluster.abaxnet.SC: line 2: Angstrom: command not found
-/var/lib/torque/mom_priv/jobs/3328.cluster.abaxnet.SC: line 3: Multipoles: command not found
-/var/lib/torque/mom_priv/jobs/3328.cluster.abaxnet.SC: line 4: Limit: command not found
-/var/lib/torque/mom_priv/jobs/3328.cluster.abaxnet.SC: line 5: Switch: command not found
-/var/lib/torque/mom_priv/jobs/3328.cluster.abaxnet.SC: line 6: Radius: command not found
-/var/lib/torque/mom_priv/jobs/3328.cluster.abaxnet.SC: line 7: Punch: command not found
-/var/lib/torque/mom_priv/jobs/3328.cluster.abaxnet.SC: line 8: syntax error near unexpected token `('
-/var/lib/torque/mom_priv/jobs/3328.cluster.abaxnet.SC: line 8: `  Add TOP(2) 0.0 0.0  2.00'
